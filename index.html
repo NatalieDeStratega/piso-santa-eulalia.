@@ -1,0 +1,510 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Piso de 4 dormitorios y 103 m² con garaje y trastero en Santa Eulalia, Murcia, junto al campus de La Merced. 250.000 €.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Piso en Santa Eulalia, Murcia · 250.000 €">
+<meta property="og:description" content="4 dormitorios, 2 baños, 103 m², garaje y trastero. Junto al campus de La Merced.">
+<meta property="og:image" content="img/r-salon.jpg">
+<style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+<title>Piso en Santa Eulalia</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: full-bleed render hero, then a single editorial column. The before/after sliders are the centrepiece: today vs. the reform. */
+:root {
+  --bg: #F2F1EC;
+  --fg: #18201D;
+  --muted: #58625D;
+  --rule: #D2D3CB;
+  --accent: #1F5C57;
+  --tint: #E3E8E2;
+  --render: #8A5A12;
+  --render-bg: #F6E9CF;
+  --real: #1F5C57;
+  --real-bg: #DCEBE7;
+  --font-display: "Newsreader", Georgia, "Times New Roman", serif;
+  --font-body: "Figtree", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #141A18; --fg: #ECEFEA; --muted: #A3ADA8; --rule: #2E3834;
+    --accent: #7FC2B9; --tint: #1D2926;
+    --render: #F0C77E; --render-bg: #3A2D16; --real: #9AD6CC; --real-bg: #18322E;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #141A18; --fg: #ECEFEA; --muted: #A3ADA8; --rule: #2E3834;
+  --accent: #7FC2B9; --tint: #1D2926;
+  --render: #F0C77E; --render-bg: #3A2D16; --real: #9AD6CC; --real-bg: #18322E;
+  color-scheme: dark;
+}
+
+body { background: var(--bg); color: var(--fg); font-family: var(--font-body); font-size: 16px; line-height: 1.6; }
+.wrap {
+  max-width: 820px; margin: 0 auto;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+h1, h2 { font-family: var(--font-display); font-weight: 500; text-wrap: balance; margin: 0; }
+h1 { font-size: clamp(2.3rem, 7vw, 3.6rem); line-height: 1.04; letter-spacing: -0.015em; }
+h2 { font-size: clamp(1.5rem, 4vw, 1.9rem); line-height: 1.2; }
+p { margin: 0; max-width: 65ch; }
+a { color: var(--accent); }
+section { margin-top: 64px; }
+.sec-head { display: flex; flex-direction: column; gap: 8px; margin-bottom: 20px; }
+.sec-head p { color: var(--muted); }
+
+.eyebrow { font-family: var(--font-mono); font-size: 0.76rem; letter-spacing: 0.07em; text-transform: uppercase; color: var(--muted); }
+
+/* Badges: render vs real photo */
+.tag {
+  display: inline-flex; align-items: center; gap: 6px;
+  font-family: var(--font-mono); font-size: 0.7rem; font-weight: 500;
+  letter-spacing: 0.06em; text-transform: uppercase;
+  padding: 4px 9px; border-radius: 999px; white-space: nowrap;
+}
+.tag::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: currentColor; }
+.tag.render { color: var(--render); background: var(--render-bg); }
+.tag.real { color: var(--real); background: var(--real-bg); }
+
+/* Hero */
+.hero { position: relative; max-width: 1200px; margin: 0 auto; }
+.hero img { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; max-height: 62vh; }
+.hero .tag { position: absolute; left: max(16px, env(safe-area-inset-left, 0px)); bottom: 16px; box-shadow: 0 2px 10px rgba(0,0,0,.18); }
+.intro { padding-block: 36px 0; }
+.intro .eyebrow { margin-bottom: 14px; }
+.lede { margin-top: 18px; font-size: 1.12rem; color: var(--muted); }
+
+.price-row { margin-top: 32px; padding-top: 22px; border-top: 1px solid var(--fg); display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px 24px; }
+.price { font-family: var(--font-display); font-size: clamp(2.6rem, 9vw, 3.8rem); line-height: 1; font-variant-numeric: tabular-nums; }
+.price-note { color: var(--muted); font-size: 0.92rem; }
+.jump { font-weight: 600; text-decoration: none; border-bottom: 1px solid var(--accent); padding-bottom: 2px; }
+
+.facts { margin: 24px 0 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); border-top: 1px solid var(--rule); }
+.facts div { padding: 14px 14px 14px 0; border-bottom: 1px solid var(--rule); display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.facts dt { font-size: 0.8rem; color: var(--muted); }
+.facts dd { margin: 0; font-weight: 600; font-variant-numeric: tabular-nums; }
+
+/* Before / after */
+.disclaimer {
+  display: flex; gap: 12px; align-items: flex-start;
+  padding: 14px 16px; border-radius: 6px; background: var(--render-bg); color: var(--fg);
+  font-size: 0.94rem; margin-bottom: 24px;
+}
+.disclaimer strong { color: var(--render); }
+.pairs { display: grid; gap: 36px; }
+.pair figure { margin: 0; }
+.ba {
+  position: relative; width: 100%; max-width: 100%; aspect-ratio: 1.434; overflow: hidden;
+  border-radius: 6px; background: var(--tint); user-select: none; touch-action: pan-y;
+}
+.ba img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; pointer-events: none; }
+.ba .after { clip-path: inset(0 0 0 var(--pos, 50%)); }
+.ba .handle { position: absolute; top: 0; bottom: 0; left: var(--pos, 50%); width: 2px; margin-left: -1px; background: #fff; box-shadow: 0 0 0 1px rgba(0,0,0,.15); pointer-events: none; }
+.ba .knob {
+  position: absolute; top: 50%; left: 50%; width: 44px; height: 44px; margin: -22px 0 0 -22px;
+  border-radius: 50%; background: #fff; box-shadow: 0 2px 12px rgba(0,0,0,.3);
+  display: grid; place-items: center; color: #18201D; font-size: 15px; font-weight: 700; letter-spacing: -1px;
+}
+.ba input[type="range"] { position: absolute; inset: 0; width: 100%; height: 100%; margin: 0; opacity: 0; cursor: ew-resize; }
+.ba input[type="range"]:focus-visible + .handle .knob { outline: 3px solid var(--accent); outline-offset: 3px; }
+.ba .tag { position: absolute; top: 12px; pointer-events: none; }
+.ba .tag.real { left: 12px; }
+.ba .tag.render { right: 12px; }
+.pair figcaption { margin-top: 10px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 16px; }
+.pair figcaption b { font-weight: 600; }
+.pair figcaption span { color: var(--muted); font-size: 0.9rem; }
+
+/* Gallery */
+.filters { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
+.filters button {
+  font: inherit; font-size: 0.88rem; font-weight: 600; padding: 7px 14px; border-radius: 999px;
+  border: 1px solid var(--rule); background: transparent; color: var(--fg); cursor: pointer;
+}
+.filters button[aria-pressed="true"] { background: var(--fg); color: var(--bg); border-color: var(--fg); }
+.gallery { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
+.gallery button {
+  position: relative; padding: 0; border: 0; background: var(--tint); border-radius: 4px; overflow: hidden; cursor: zoom-in;
+  aspect-ratio: 1.434; max-width: 100%;
+}
+.gallery img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .35s ease; }
+.gallery button:hover img { transform: scale(1.03); }
+.gallery .tag { position: absolute; left: 8px; bottom: 8px; font-size: 0.62rem; padding: 3px 7px; }
+
+dialog { border: 0; padding: 0; background: transparent; max-width: min(1200px, 94vw); width: 100%; }
+dialog::backdrop { background: rgba(10, 14, 12, .88); }
+dialog figure { margin: 0; }
+dialog img { width: 100%; max-height: 80vh; object-fit: contain; display: block; border-radius: 4px; }
+dialog figcaption { margin-top: 10px; display: flex; align-items: center; justify-content: space-between; gap: 12px; color: #ECEFEA; }
+.lb-nav { display: flex; gap: 8px; }
+.lb-nav button { font: inherit; font-weight: 600; font-size: 0.9rem; padding: 8px 14px; border-radius: 999px; border: 1px solid rgba(255,255,255,.4); background: transparent; color: #fff; cursor: pointer; }
+
+/* Story + profiles */
+.story p + p { margin-top: 14px; }
+.profiles { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); }
+.profile { padding: 22px; background: var(--tint); border-radius: 6px; min-width: 0; }
+.profile h3 { margin: 0 0 8px; font-size: 1rem; font-weight: 700; color: var(--accent); }
+.profile p { font-size: 0.97rem; }
+
+.extras { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 24px; }
+.extras li { padding: 12px 0; border-bottom: 1px solid var(--rule); min-width: 0; }
+.extras b { display: block; }
+.extras span { color: var(--muted); font-size: 0.92rem; }
+
+table { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; }
+td { padding: 12px 0; border-bottom: 1px solid var(--rule); vertical-align: top; }
+td:last-child { text-align: right; font-weight: 600; white-space: nowrap; padding-left: 16px; }
+tr.total td { font-weight: 700; border-bottom: 0; color: var(--accent); }
+.table-wrap { overflow-x: auto; }
+.small { margin-top: 12px; color: var(--muted); font-size: 0.88rem; }
+.notes ul { margin: 0; padding-left: 20px; }
+.notes li { margin-top: 8px; }
+
+/* Contact */
+.cta { padding: 32px 26px; background: var(--fg); color: var(--bg); border-radius: 8px; }
+.cta h2 { color: var(--bg); }
+.cta > p { margin-top: 10px; opacity: .8; }
+.agent { margin-top: 22px; display: flex; flex-direction: column; gap: 2px; }
+.agent b { font-size: 1.05rem; }
+.agent span { opacity: .75; font-size: 0.92rem; }
+.contact { margin-top: 18px; display: grid; gap: 10px; }
+.contact-row {
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 12px;
+  padding: 12px 14px; border: 1px solid color-mix(in srgb, var(--bg) 25%, transparent); border-radius: 6px; min-width: 0;
+}
+.contact-row span { font-family: var(--font-mono); font-size: 0.95rem; overflow-wrap: anywhere; min-width: 0; }
+.cta button {
+  font: inherit; font-size: 0.85rem; font-weight: 600; padding: 8px 14px; border-radius: 999px;
+  border: 1px solid var(--bg); background: var(--bg); color: var(--fg); cursor: pointer;
+}
+.cta a { color: var(--bg); }
+.cta .btn-link { display: inline-block; margin-top: 20px; font-weight: 600; text-decoration: none; border-bottom: 1px solid currentColor; padding-bottom: 2px; }
+
+button:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+
+footer { margin-top: 48px; padding-block: 20px 48px; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+footer p + p { margin-top: 6px; }
+
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+@media (max-width: 640px) {
+  .facts { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .extras { grid-template-columns: 1fr; }
+  .cta { padding: 26px 18px; }
+  .ba .knob { width: 38px; height: 38px; margin: -19px 0 0 -19px; }
+}
+</style>
+
+</head>
+<body>
+<div class="hero">
+  <img src="img/r-salon.jpg" alt="Render del salón reformado con sofá, mesa de comedor y mirador">
+  <span class="tag render">Render · propuesta de reforma</span>
+</div>
+
+<main class="wrap">
+  <header class="intro">
+    <p class="eyebrow">Venta · Santa Eulalia, Murcia · Ref. MUR21</p>
+    <h1>Piso de cuatro dormitorios en Santa Eulalia</h1>
+    <p class="lede">103 m² con garaje y trastero, junto al campus de La Merced y a un paso del centro de Murcia. Se vende para reformar a tu medida.</p>
+
+    <div class="price-row">
+      <div>
+        <div class="price">250.000 €</div>
+        <p class="price-note">Garaje y trastero incluidos</p>
+      </div>
+      <a class="jump" href="#contacto">Solicitar visita</a>
+    </div>
+
+    <dl class="facts">
+      <div><dt>Superficie</dt><dd>103 m²</dd></div>
+      <div><dt>Dormitorios</dt><dd>4</dd></div>
+      <div><dt>Baños</dt><dd>2</dd></div>
+      <div><dt>Planta</dt><dd>1.ª, con ascensor</dd></div>
+    </dl>
+  </header>
+
+  <section id="reforma">
+    <div class="sec-head">
+      <p class="eyebrow">Antes y después</p>
+      <h2>Cómo está hoy y lo que puede llegar a ser</h2>
+      <p>Desliza cada imagen para comparar el estado actual con una propuesta de reforma.</p>
+    </div>
+    <div class="disclaimer">
+      <span><strong>Las imágenes marcadas como Render son recreaciones orientativas</strong> de una posible reforma. El piso se vende en su estado actual, que es el que muestran las fotos reales.</span>
+    </div>
+
+    <div class="pairs">
+      <div class="pair">
+        <figure>
+          <div class="ba">
+            <img src="img/a-salon.jpg" alt="Salón en su estado actual, vacío, con mirador">
+            <img class="after" src="img/r-salon.jpg" alt="Render del salón reformado">
+            <input type="range" id="ba-salon" min="0" max="100" value="50" aria-label="Comparar salón: estado actual y render">
+            <div class="handle"><div class="knob" aria-hidden="true">‹ ›</div></div>
+            <span class="tag real">Foto real</span>
+            <span class="tag render">Render</span>
+          </div>
+          <figcaption><b>Salón con mirador</b><span>Amplio, con luz por tres lados</span></figcaption>
+        </figure>
+      </div>
+
+      <div class="pair">
+        <figure>
+          <div class="ba">
+            <img src="img/a-cocina2.jpg" alt="Cocina en su estado actual">
+            <img class="after" src="img/r-cocina.jpg" alt="Render de la cocina reformada">
+            <input type="range" id="ba-cocina" min="0" max="100" value="50" aria-label="Comparar cocina: estado actual y render">
+            <div class="handle"><div class="knob" aria-hidden="true">‹ ›</div></div>
+            <span class="tag real">Foto real</span>
+            <span class="tag render">Render</span>
+          </div>
+          <figcaption><b>Cocina independiente</b><span>Con office y lavadero</span></figcaption>
+        </figure>
+      </div>
+
+      <div class="pair">
+        <figure>
+          <div class="ba">
+            <img src="img/a-patio.jpg" alt="Patio en su estado actual">
+            <img class="after" src="img/r-patio.jpg" alt="Render del patio reformado con mesa y luces">
+            <input type="range" id="ba-patio" min="0" max="100" value="50" aria-label="Comparar patio: estado actual y render">
+            <div class="handle"><div class="knob" aria-hidden="true">‹ ›</div></div>
+            <span class="tag real">Foto real</span>
+            <span class="tag render">Render</span>
+          </div>
+          <figcaption><b>Patio privado</b><span>Un exterior poco habitual en un primer piso</span></figcaption>
+        </figure>
+      </div>
+
+      <div class="pair">
+        <figure>
+          <div class="ba">
+            <img src="img/a-dorm3.jpg" alt="Dormitorio en su estado actual">
+            <img class="after" src="img/r-dorm3.jpg" alt="Render del dormitorio con escritorio">
+            <input type="range" id="ba-dorm3" min="0" max="100" value="50" aria-label="Comparar dormitorio: estado actual y render">
+            <div class="handle"><div class="knob" aria-hidden="true">‹ ›</div></div>
+            <span class="tag real">Foto real</span>
+            <span class="tag render">Render</span>
+          </div>
+          <figcaption><b>Dormitorio</b><span>Con espacio para cama y zona de estudio</span></figcaption>
+        </figure>
+      </div>
+
+      <div class="pair">
+        <figure>
+          <div class="ba">
+            <img src="img/a-dorm4.jpg" alt="Dormitorio con armario empotrado en su estado actual">
+            <img class="after" src="img/r-dorm4.jpg" alt="Render del dormitorio con armario empotrado">
+            <input type="range" id="ba-dorm4" min="0" max="100" value="50" aria-label="Comparar dormitorio con armario: estado actual y render">
+            <div class="handle"><div class="knob" aria-hidden="true">‹ ›</div></div>
+            <span class="tag real">Foto real</span>
+            <span class="tag render">Render</span>
+          </div>
+          <figcaption><b>Dormitorio con armario empotrado</b><span>Ideal como habitación de estudiante</span></figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section id="fotos">
+    <div class="sec-head">
+      <p class="eyebrow">Galería · 14 imágenes</p>
+      <h2>Todas las fotos</h2>
+    </div>
+    <div class="filters" role="group" aria-label="Filtrar fotos">
+      <button type="button" data-filter="all" aria-pressed="true">Todas</button>
+      <button type="button" data-filter="real" aria-pressed="false">Estado actual (7)</button>
+      <button type="button" data-filter="render" aria-pressed="false">Renders (7)</button>
+    </div>
+    <div class="gallery" id="gallery"></div>
+  </section>
+
+  <section class="story">
+    <div class="sec-head">
+      <p class="eyebrow">La vivienda</p>
+      <h2>Espacio, ubicación y margen para reformar</h2>
+    </div>
+    <p>Piso de 103 m² en primera planta con ascensor. Tiene un salón amplio con mirador, cocina independiente con office, cuatro dormitorios, dos baños, patio y lavadero. Su distribución deja margen para una reforma completa y para crear una casa a medida.</p>
+    <p>Incluye plaza de garaje privada y un trastero amplio, dos extras difíciles de encontrar en esta zona. Además, existe la posibilidad de adquirir un local para ampliar la vivienda y comunicar ambos inmuebles.</p>
+  </section>
+
+  <section>
+    <ul class="extras">
+      <li><b>Plaza de garaje</b><span>Privada, incluida en el precio</span></li>
+      <li><b>Trastero</b><span>Amplio, incluido</span></li>
+      <li><b>Patio y lavadero</b><span>Exterior privado</span></li>
+      <li><b>Ascensor</b><span>Primera planta</span></li>
+      <li><b>Suelo</b><span>Gres cerámico</span></li>
+      <li><b>Local anexo</b><span>Opción de compra para ampliar</span></li>
+    </ul>
+  </section>
+
+  <section>
+    <div class="sec-head">
+      <p class="eyebrow">Para quién es</p>
+      <h2>Dos maneras de aprovecharlo</h2>
+    </div>
+    <div class="profiles">
+      <article class="profile">
+        <h3>Inversión en alquiler</h3>
+        <p>Junto al campus de La Merced, con demanda de alquiler de estudiantes durante todo el curso y también de alquiler residencial. Cuatro dormitorios permiten alquilar por habitaciones. Hay un dossier de rentabilidad disponible.</p>
+      </article>
+      <article class="profile">
+        <h3>Vivienda familiar</h3>
+        <p>Una de las mejores zonas de Murcia, con el centro y todos los servicios a un paso. Espacio para una familia y la posibilidad de reformarla a tu gusto.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="notes">
+    <div class="sec-head">
+      <p class="eyebrow">Antes de visitar</p>
+      <h2>Lo que conviene saber</h2>
+    </div>
+    <ul>
+      <li>El piso se vende en su estado actual y necesita reforma.</li>
+      <li>Los renders son orientativos y no forman parte de la venta.</li>
+      <li>Certificado energético G, con unas emisiones de 999 kg CO₂ m² al año.</li>
+      <li>La dirección exacta se facilita a los compradores que solicitan visita.</li>
+    </ul>
+  </section>
+
+  <section class="cta" id="contacto">
+    <h2>Solicitar visita</h2>
+    <p>Si encaja con lo que buscas, escríbeme. Te envío la dirección exacta, el dossier de rentabilidad y las fechas de visita disponibles.</p>
+    <div class="agent">
+      <b>Natalie González</b>
+      <span>Stratega Homes · en colaboración con La Bella Group</span>
+    </div>
+    <div class="contact">
+      <div class="contact-row">
+        <span>natalie@strategahomes.com</span>
+        <button type="button" data-copy="natalie@strategahomes.com">Copiar email</button>
+      </div>
+      <div class="contact-row">
+        <span>653 052 447</span>
+        <button type="button" data-copy="653052447">Copiar teléfono</button>
+      </div>
+    </div>
+    <a class="btn-link" href="https://www.fotocasa.es/es/comprar/vivienda/murcia-capital/parking-trastero-ascensor-patio-no-amueblado/190210935/d" target="_blank" rel="noopener">Ver el anuncio en Fotocasa</a>
+  </section>
+
+  <footer>
+    <p>Inmueble comercializado por La Bella Group a través de Stratega Homes. Ref. MUR21.</p>
+    <p>Información orientativa sujeta a verificación. Las imágenes marcadas como Render no muestran el estado actual.</p>
+  </footer>
+</main>
+
+<dialog id="lightbox" aria-label="Foto ampliada">
+  <figure>
+    <img id="lb-img" alt="">
+    <figcaption>
+      <span id="lb-cap"></span>
+      <span class="lb-nav">
+        <button type="button" id="lb-prev" aria-label="Foto anterior">‹</button>
+        <button type="button" id="lb-next" aria-label="Foto siguiente">›</button>
+        <button type="button" id="lb-close">Cerrar</button>
+      </span>
+    </figcaption>
+  </figure>
+</dialog>
+
+<script>
+(function () {
+  // Before/after sliders
+  document.querySelectorAll('.ba').forEach(function (ba) {
+    var input = ba.querySelector('input');
+    var set = function () { ba.style.setProperty('--pos', input.value + '%'); };
+    input.addEventListener('input', set);
+    set();
+  });
+
+  // Gallery
+  var photos = [
+    ['a-salon', 'real', 'Salón con mirador'],
+    ['r-salon', 'render', 'Salón reformado'],
+    ['a-cocina2', 'real', 'Cocina'],
+    ['a-cocina1', 'real', 'Cocina y acceso al lavadero'],
+    ['r-cocina', 'render', 'Cocina reformada'],
+    ['a-patio', 'real', 'Patio'],
+    ['r-patio', 'render', 'Patio reformado'],
+    ['a-dorm3', 'real', 'Dormitorio'],
+    ['r-dorm3', 'render', 'Dormitorio con zona de estudio'],
+    ['a-dorm4', 'real', 'Dormitorio con armario empotrado'],
+    ['r-dorm4', 'render', 'Dormitorio con armario reformado'],
+    ['r-dorm1', 'render', 'Dormitorio principal'],
+    ['r-dorm2', 'render', 'Dormitorio con escritorio'],
+    ['a-garaje', 'real', 'Plaza de garaje']
+  ];
+  var gallery = document.getElementById('gallery');
+  var visible = photos.slice();
+  var current = 0;
+  var label = function (t) { return t === 'render' ? 'Render' : 'Foto real'; };
+
+  function render(filter) {
+    visible = photos.filter(function (p) { return filter === 'all' || p[1] === filter; });
+    gallery.innerHTML = '';
+    visible.forEach(function (p, i) {
+      var b = document.createElement('button');
+      b.type = 'button';
+      b.setAttribute('aria-label', 'Ampliar: ' + p[2] + ' (' + label(p[1]) + ')');
+      b.innerHTML = '<img loading="lazy" src="img/' + p[0] + '.jpg" alt="' + p[2] + '"><span class="tag ' + p[1] + '">' + label(p[1]) + '</span>';
+      b.addEventListener('click', function () { open(i); });
+      gallery.appendChild(b);
+    });
+  }
+  document.querySelectorAll('.filters button').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      document.querySelectorAll('.filters button').forEach(function (b) { b.setAttribute('aria-pressed', b === btn ? 'true' : 'false'); });
+      render(btn.getAttribute('data-filter'));
+    });
+  });
+  render('all');
+
+  // Lightbox
+  var lb = document.getElementById('lightbox');
+  var lbImg = document.getElementById('lb-img');
+  var lbCap = document.getElementById('lb-cap');
+  function show(i) {
+    current = (i + visible.length) % visible.length;
+    var p = visible[current];
+    lbImg.src = 'img/' + p[0] + '.jpg';
+    lbImg.alt = p[2];
+    lbCap.innerHTML = '<span class="tag ' + p[1] + '">' + label(p[1]) + '</span> ' + p[2];
+  }
+  function open(i) {
+    show(i);
+    if (lb.showModal) { try { lb.showModal(); } catch (e) { lb.setAttribute('open', ''); } } else { lb.setAttribute('open', ''); }
+  }
+  function close() { if (lb.close) lb.close(); else lb.removeAttribute('open'); }
+  document.getElementById('lb-prev').addEventListener('click', function () { show(current - 1); });
+  document.getElementById('lb-next').addEventListener('click', function () { show(current + 1); });
+  document.getElementById('lb-close').addEventListener('click', close);
+  lb.addEventListener('click', function (e) { if (e.target === lb) close(); });
+  document.addEventListener('keydown', function (e) {
+    if (!lb.open) return;
+    if (e.key === 'ArrowLeft') show(current - 1);
+    if (e.key === 'ArrowRight') show(current + 1);
+  });
+
+  // Copy buttons
+  document.querySelectorAll('[data-copy]').forEach(function (btn) {
+    var original = btn.textContent;
+    btn.addEventListener('click', function () {
+      var text = btn.getAttribute('data-copy');
+      var reset = function (msg) { btn.textContent = msg; setTimeout(function () { btn.textContent = original; }, 1800); };
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(function () { reset('Copiado'); }, function () { reset('Selecciona el texto'); });
+      } else { reset('Selecciona el texto'); }
+    });
+  });
+})();
+</script>
+
+</body>
+</html>
